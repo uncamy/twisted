@@ -1,0 +1,17 @@
+2013-11-19 12:52:40-0500 [-] Log opened.
+2013-11-19 12:52:40-0500 [-] twistd 13.2.0 (/Users/amyroberts/virtualenvs/twisted/bin/python2.7 2.7.5) starting up.
+2013-11-19 12:52:40-0500 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2013-11-19 12:52:40-0500 [-] Site starting on 8080
+2013-11-19 12:52:40-0500 [-] Starting factory <twisted.web.server.Site instance at 0x11069a3b0>
+2013-11-19 12:54:42-0500 [-] Received SIGTERM, shutting down.
+2013-11-19 12:54:42-0500 [-] (TCP Port 8080 Closed)
+2013-11-19 12:54:42-0500 [-] Stopping factory <twisted.web.server.Site instance at 0x11069a3b0>
+2013-11-19 12:54:42-0500 [-] Main loop terminated.
+2013-11-19 12:54:42-0500 [-] Server Shut Down.
+2013-11-19 12:54:51-0500 [-] Log opened.
+2013-11-19 12:54:51-0500 [-] twistd 13.2.0 (/Users/amyroberts/virtualenvs/twisted/bin/python2.7 2.7.5) starting up.
+2013-11-19 12:54:51-0500 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2013-11-19 12:54:51-0500 [-] Site starting on 8080
+2013-11-19 12:54:51-0500 [-] Starting factory <twisted.web.server.Site instance at 0x10e1763b0>
+2013-11-19 12:55:14-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [19/Nov/2013:17:55:13 +0000] "GET / HTTP/1.1" 200 199 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36"
+2013-11-19 12:55:14-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [19/Nov/2013:17:55:13 +0000] "GET /favicon.ico HTTP/1.1" 200 199 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36"

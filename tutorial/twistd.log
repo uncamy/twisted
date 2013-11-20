@@ -1,0 +1,42 @@
+2013-11-19 13:20:13-0500 [-] Log opened.
+2013-11-19 13:20:13-0500 [-] twistd 13.2.0 (/Users/amyroberts/virtualenvs/twisted/bin/python2.7 2.7.5) starting up.
+2013-11-19 13:20:13-0500 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2013-11-19 13:20:13-0500 [-] POP3Factory starting on 8110
+2013-11-19 13:20:13-0500 [-] Starting factory <twisted.mail.protocols.POP3Factory instance at 0x107fd57e8>
+2013-11-19 13:20:13-0500 [-] SMTPFactory starting on 8025
+2013-11-19 13:20:13-0500 [-] Starting factory <twisted.mail.protocols.SMTPFactory instance at 0x107fd5c68>
+2013-11-19 13:24:40-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63454)
+2013-11-19 13:24:40-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63455)
+2013-11-19 13:24:45-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63457)
+2013-11-19 13:34:45-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63467)
+2013-11-19 13:56:56-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63523)
+2013-11-19 13:56:56-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63525)
+2013-11-19 13:57:25-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63528)
+2013-11-19 14:03:19-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63559)
+2013-11-19 14:03:19-0500 [SMTP,7,127.0.0.1] Receiving message for delivery: from=tutorial_sender@example.com to=['tutorial_recipient@localhost']
+2013-11-19 14:07:25-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 63576)
+2013-11-19 17:25:59-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 53167)
+2013-11-19 17:32:36-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 53272)
+2013-11-19 17:32:36-0500 [SMTP,10,127.0.0.1] Receiving message for delivery: from=tutorial_sender@example.com to=['tutorial_recipient@localhost']
+2013-11-19 17:36:41-0500 [-] Received SIGTERM, shutting down.
+2013-11-19 17:36:41-0500 [-] (TCP Port 8025 Closed)
+2013-11-19 17:36:41-0500 [-] Stopping factory <twisted.mail.protocols.SMTPFactory instance at 0x107fd5c68>
+2013-11-19 17:36:41-0500 [-] (TCP Port 8110 Closed)
+2013-11-19 17:36:41-0500 [-] Stopping factory <twisted.mail.protocols.POP3Factory instance at 0x107fd57e8>
+2013-11-19 17:36:41-0500 [-] Main loop terminated.
+2013-11-19 17:36:41-0500 [-] Failed to unlink PID file:
+	Traceback (most recent call last):
+	Failure: exceptions.OSError: [Errno 2] No such file or directory: '/Users/amyroberts/Downloads/tutorial/=server.pid'
+	
+2013-11-19 17:36:41-0500 [-] Server Shut Down.
+2013-11-19 17:38:04-0500 [-] Log opened.
+2013-11-19 17:38:04-0500 [-] twistd 13.2.0 (/Users/amyroberts/virtualenvs/twisted/bin/python2.7 2.7.5) starting up.
+2013-11-19 17:38:04-0500 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2013-11-19 17:38:04-0500 [-] POP3Factory starting on 8110
+2013-11-19 17:38:04-0500 [-] Starting factory <twisted.mail.protocols.POP3Factory instance at 0x10f8a57e8>
+2013-11-19 17:38:04-0500 [-] SMTPFactory starting on 8025
+2013-11-19 17:38:04-0500 [-] Starting factory <twisted.mail.protocols.SMTPFactory instance at 0x10f8a5c68>
+2013-11-19 17:45:29-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 53385)
+2013-11-19 17:45:29-0500 [SMTP,0,127.0.0.1] Receiving message for delivery: from=tutorial_sender@example.com to=['tutorial_recipient@example.net']
+2013-11-19 17:59:30-0500 [twisted.mail.protocols.SMTPFactory] Connection from IPv4Address(TCP, '127.0.0.1', 53412)
+2013-11-19 17:59:30-0500 [SMTP,1,127.0.0.1] Receiving message for delivery: from=tutorial_sender@example.com to=['tutorial_recipient@example.net']
